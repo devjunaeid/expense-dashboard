@@ -7,7 +7,7 @@ const links = ref(
   [
     { id: 1, title: "Dashboard", url: "/dashboard" },
     { id: 2, title: "Expense", url: "/dashboard/expense" },
-    { id: 3, title: "Wallets", url: "/dashboard/walltes" },
+    { id: 3, title: "Wallets", url: "/dashboard/wallets" },
     { id: 4, title: "Summary", url: "/dashboard/summary" },
     { id: 5, title: "Accounts", url: "/dashboard/accounts" },
     { id: 6, title: "Settings", url: "/dashboard/settings" }
