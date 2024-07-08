@@ -9,11 +9,11 @@ import ExpenseOverview from "@/components/Expense/ExpenseOverview.vue"
   <div class="w-full h-full flex rounded-2xl">
 
     <!-- Left Section -->
-    <div class="w-2/3 h-full grid grid-flow-row grid-cols-1 grid-rows-3 px-36 py-12">
-      <div class="flex">
+    <div class="w-2/3 h-full grid grid-flow-row grid-cols-1 grid-rows-12 px-36 py-12">
+      <div class="flex row-span-3">
         <ExpenseOverview />
       </div>
-      <div class="row-span-2">
+      <div class="row-span-9">
         <DailyExpense />
       </div>
     </div>
