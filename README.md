@@ -1,17 +1,29 @@
-# expense-dashboard
+# Expense-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+A digital expense monitoring dashboard using Vue3, TailwindCSS.
 
-## Recommended IDE Setup
+## Project Info.
+### Tech Stack
+1. Vue
+2. Tailwind CSS
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Note: Design for desktop view only(1920x1080).**
 
-## Customize configuration
+### View the project live [here](https://expense-dashboard-zeta.vercel.app/dashboard/expense)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Overview
+![](./public/Screenshots/overview.gif)
 
-## Project Setup
 
+## Project Setup(local development)
+
+### Clone and open project directory.
+```sh
+git clone https://github.com/devjunaeid/expense-dashboard.git
+cd expense-dashboard
+```
+
+### Install Project Dependency.
 ```sh
 npm install
 ```
