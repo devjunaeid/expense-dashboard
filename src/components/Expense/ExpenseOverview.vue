@@ -164,9 +164,9 @@ const scale = ref(500);
 
         <!-- Chart Based on daily spending. -->
         <div class="flex">
-            <div class="w-full  grid grid-cols-25 h-[250px]" v-for="(item, index) in monthlyExpenses.expenseEachDay"
+            <div class="w-full  grid grid-cols-25 h-[150px]" v-for="(item, index) in monthlyExpenses.expenseEachDay"
                 :key="index">
-                <div class="flex flex-col justify-end items-end w-[25px] h-[200px] mx-[2px]">
+                <div class="flex flex-col justify-end items-end w-[25px] h-[100px] mx-[2px]">
 
                     <!-- Variable height baes on spend amount. -->
                     <div
