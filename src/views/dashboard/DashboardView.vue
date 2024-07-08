@@ -4,7 +4,7 @@ import Links from "../../components/Dashboard/nav/Links.vue";
 </script>
 
 <template>
-  <div class="w-screen h-screen flex items-center bg-black p-6">
+  <div class="m-auto flex items-center justify-center bg-black p-6 mx-10 rounded-2xl">
    
     <!-- Dashboard Nav -->
     <nav class="w-[300px] h-full flex flex-col justify-center items-center">
@@ -15,7 +15,7 @@ import Links from "../../components/Dashboard/nav/Links.vue";
     </nav>
     
     <!-- SubRoute/Component View -->
-    <div class="flex-1 h-[90%] m-auto rounded-2xl bg-white">
+    <div class="w-[1500px] h-[850px] rounded-2xl bg-white border border-blue-400">
       <RouterView />
     </div>
   </div>
