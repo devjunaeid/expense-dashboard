@@ -39,11 +39,11 @@ const monthlyTotalSpending = ref({
 
 <template>
     <div class="relative w-[80%] m-auto font-poppins font-medium">
-        <h2 class="text-[20px] text-darkblue mb-6">Where your money go?</h2>
+        <h2 class="text-[20px] text-darkblue mb-2">Where your money go?</h2>
        
         <!-- Iterate over all category -->
         <div class="flex flex-col gap-4" v-for="(value, index) in monthlyTotalSpending.spendings" :key="index">
-            <div class="my-[16px]">
+            <div class="my-[12px]">
                 <h2 class="flex justify-between text-[13px] text-semiblue capitalize"><span>{{ value.cat }}</span> <span>{{ value.amount.toFixed(3) }}</span></h2>
                 <div class="relative w-full h-2 mt-1 rounded-md bg-lightblue">
 
