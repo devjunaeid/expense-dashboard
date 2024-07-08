@@ -22,7 +22,7 @@ const totalNotification = ref(5);
         <!--Show notification only when totalNotification>0  -->
         <div v-if="totalNotification > 0">
             <p
-                class="absolute top-0 right-1/2 w-8 h-8 text-sm grid place-content-center rounded-full bg-red-600 text-white">
+                class="absolute -top-2 right-1/2 w-8 h-8 text-sm grid place-content-center rounded-full bg-red-600 text-white">
                 {{ totalNotification }}
             </p>
         </div>
