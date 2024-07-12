@@ -10,7 +10,7 @@ import entertainmentIcon from "@/assets/imgs/expense/expenseCat/entertainment.pn
 // Todays Date. 
 const today = new Date().toDateString();
 
-// Daily Expense Moke Data.
+// Daily Expense Mock Data.
 const daliyExpenses = ref([
     {
         date: today,

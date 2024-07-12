@@ -8,7 +8,7 @@ import person3 from "@/assets/imgs/expense/access/person3.png"
 // Todays Date. 
 const today = new Date().toDateString();
 
-// Moke Access List
+// Mock Access List
 const accessList = ref([
     {
         name: "Blue",
@@ -27,7 +27,7 @@ const accessList = ref([
     },
 ])
 
-// Moke monthly expense data.
+// Mock monthly expense data.
 const monthlyExpenses = ref({
     range: "01-25 July 2024",
     totalExpense: 3547,

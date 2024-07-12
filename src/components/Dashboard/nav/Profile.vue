@@ -2,14 +2,14 @@
 import { ref } from "vue";
 import profileImg from "../../../assets/imgs/profile.png"
 
-// Moke Data: User profile.
+// Mock Data: User profile.
 const profile = ref({
     name: "Samantha",
     email: "samantha@email.com",
     img: profileImg
 })
 
-// Moke Data: Unread Notification number.
+// Mock Data: Unread Notification number.
 const totalNotification = ref(5);
 </script>
 

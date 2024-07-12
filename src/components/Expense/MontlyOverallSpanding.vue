@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-// Moke data. Category wise spending.
+// Mock data. Category wise spending.
 const monthlyTotalSpending = ref({
     id: 1,
     month: "April",
